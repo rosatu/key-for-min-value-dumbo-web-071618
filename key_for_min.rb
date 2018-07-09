@@ -14,6 +14,8 @@ def key_for_min_value(name_hash)
         if 
       value_array[0] == value
         return name
+        elsif name_hash = []
+      return nil
       end
     end
 end
