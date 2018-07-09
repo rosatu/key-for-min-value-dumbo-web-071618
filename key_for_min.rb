@@ -16,4 +16,5 @@ def key_for_min_value(name_hash)
       yield(value_array[0]) == value
         return name
       end
-    end  
+    end
+  end
