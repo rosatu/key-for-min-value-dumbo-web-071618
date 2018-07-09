@@ -11,8 +11,9 @@ def key_for_min_value(name_hash)
     value_array.each do |a,b|
       a <=> b
     end  
-      i = ""
-      if name_hash[i] == value_array[0]
-        return name_hash[i]
+      name_hash.each do |name,value|
+        if 
+      yield(value_array[0]) == value
+        return name
       end
     end  
