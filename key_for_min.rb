@@ -11,11 +11,10 @@ def key_for_min_value(name_hash)
       a <=> b 
     end  
       name_hash.each do |name,value|
-        if 
-      value_array[0] == value
+        if value_array[0] == value
         return name
         elsif name_hash = []
-      return nil
+        return nil
       end
     end
 end
