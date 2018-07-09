@@ -6,8 +6,10 @@ def key_for_min_value(name_hash)
     name_hash.each do |name,value|
       value_array.push(value)
     end
+    sorted_value_array = []
     value_array.each do |a,b|
      if a <=> b == 1
+       sorted_value_array.push(b)
        
     end  
       name_hash.each do |name,value|
