@@ -10,6 +10,7 @@ def key_for_min_value(name_hash)
       k = name
       end
     end
+    k
 end
 
 #use nil as comparison
