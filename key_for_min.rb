@@ -12,8 +12,3 @@ def key_for_min_value(name_hash)
     end
     k
 end
-
-#use nil as comparison
- if 1 < nil, make 1 = to the value that holds nil
-   
-   if the value is less than variable, assign value to variable
