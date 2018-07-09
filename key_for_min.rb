@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
     end
     sorted_value_array = []
     value_array.each do |a,b|
-      a <=> b 
+      b <=> a
     end  
       name_hash.each do |name,value|
         if value_array[0] == value
