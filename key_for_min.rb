@@ -13,6 +13,6 @@ def key_for_min_value(name_hash)
     end  
       i = ""
       if name_hash[i] == value_array[0]
-        return i
+        return name_hash[i]
       end
     end  
