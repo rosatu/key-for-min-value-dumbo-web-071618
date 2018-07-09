@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
       name_hash.each do |name,value|
         if value_array[0] == value
         return name
-        elsif name_hash = []
+        elsif name_hash = {}
         return nil
       end
     end
