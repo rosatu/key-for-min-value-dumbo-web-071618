@@ -11,6 +11,7 @@ def key_for_min_value(name_hash)
     value_array.each do |a,b|
       a <=> b
     end  
+      x = ""
       if name_hash[i] == value_array[0]
         return i
       end
